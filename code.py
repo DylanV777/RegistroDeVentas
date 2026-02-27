@@ -14,11 +14,9 @@ while True:
     except ValueError:
         print("Ingrese un valor adecuado: ")
 while True:
-        print()
         vip = input("¿Tiene membresia vip?, (Digite si o no en la consola): ").lower()
         if vip in ["si", "no"]:
             break
-        print()
         print("Debe ingresar si o no")
     
     
@@ -32,7 +30,7 @@ totaldesc = subtotal - descuento
 print()
 print("------Ticket de venta------")
 print()
-print(f"Hola, {nombre}")
+print("Nombre: ", nombre)
 print(f"Productos elegidos: {cantidad}")
 
 
